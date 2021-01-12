@@ -1,0 +1,8 @@
+<h2>Course List Component</h2>
+
+<ul>
+    <li (click)="onSelect(x)" *ngFor="let x of course">
+        <span>{{x.id}}</span>{{x.name}}
+
+    </li>
+</ul>
